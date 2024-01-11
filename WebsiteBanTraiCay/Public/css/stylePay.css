@@ -1,0 +1,280 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+:root {
+	--primary-color: #cc2121;
+}
+
+.box-content {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.info-cart {
+	width: 100%;
+	display: flex;
+	justify-content: space-between
+}
+
+.info-user {
+	width: 58%;
+	height: 100%;
+	border-top: 2px solid #ddd;
+	padding-top: 15px;
+}
+
+.info-product-buy {
+	width: 40%;
+	height: 100%;
+	padding: 0 10px;
+}
+
+
+.box-container {
+	width: 100%;
+}
+
+.login-title, .discount-title {
+	font-size: 16px;
+	color: #111;
+}
+
+
+
+	.fullname label, .select-nation label,
+	.address label, .city label, .phone label, .email label, .note label {
+		display: block;
+		color: #222;
+		margin-bottom: 6px;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+.fullname,.select-nation, .address, .city, .phone, .email {
+	margin-bottom: 15px;
+}
+
+.info-user h3 {
+	padding: 10px 0 15px 0;
+	color: #1c1c1c;
+}
+
+.first-name {
+	margin-right: 27px;
+	margin-bottom: 8px;
+}
+
+.last-name {
+	margin-bottom: 8px;
+}
+
+	.first-name input, .last-name input {
+		min-width: 295px;
+		height: 39px;
+		outline: none;
+		border: 1px solid #ccc;
+		padding-left: 8px;
+		box-shadow: 0 0 2px #ccc;
+	}
+
+.address input, .city input, .phone input, .email input {
+	width: 100%;
+	height: 39px;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	box-shadow: 0 0 2px #ccc;
+}
+
+	.first-name input:focus, .last-name input:focus, .select-nation select:focus, .address input:focus, .city input:focus, .phone input:focus, .email input:focus, .note #text-note:focus {
+		box-shadow: 0 0 5px #ccc;
+	}
+
+.select-nation select {
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	color: #444;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+	.select-nation select option {
+		padding: 10px;
+	}
+
+.note #text-note {
+	padding: 15px;
+}
+
+.note #text-note {
+	max-width: 100%;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	box-shadow: 0 0 2px #ccc;
+	font-family: 'Roboto', sans-serif;
+}
+
+.info-product-boder {
+	width: 2%;
+}
+
+.info-product-buy {
+	border: 2px solid var(--primary-color);
+	padding: 15px 30px 30px;
+}
+
+.product-pay, .product-box, .provisional, .delivery, .total {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-pay, .total {
+}
+
+.product-box, .provisional, .delivery {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.info-product h3 {
+	color: #1c1c1c;
+	padding: 10px 0;
+	letter-spacing: .5px;
+}
+
+.product-pay {
+	padding: 7px 0;
+	letter-spacing: .5px;
+	font-weight: 550;
+	font-size: 14px;
+}
+
+.product-box {
+	width: 100%;
+	padding: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-box2 {
+	width: 100%;
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.product-box .product-name {
+	color: #666;
+	font-size: 14px;
+}
+
+.product-box2 .product-name span {
+	margin-left: 2px;
+	color: #666;
+	opacity: 0.8;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.product-box .product-price {
+	color: var(--primary-color);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.provisional, .total {
+	padding: 10px 0;
+}
+
+.delivery {
+	padding: 10px 0;
+}
+
+	.provisional .provisional-title, .delivery .delivery-title, .total .total-title, .cod-title, .onl-title {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.provisional .provisional-price, .delivery .delivery-price, .total-price {
+		color: var(--primary-color);
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+.check-pay {
+	margin-top: 20px;
+}
+
+
+.onl-desc {
+	display: none;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 25px;
+	animation: fadeIn 1s forwards;
+}
+
+.cod-desc {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 25px;
+	animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+.check-radio {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.check-pay-boder {
+	border-bottom: 1px solid #ebebeb;
+}
+
+
+
+.cod-title, .onl-title {
+	margin-left: 5px;
+}
+
+.pay {
+	margin-top: 20px;
+}
+
+	.pay button {
+		padding: 10px 15px;
+		background-color: #111;
+		color: white;
+		font-size: 15px;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+.form-message {
+	text-align: left;
+	font-size: 13px;
+}
+
+.form-group.invalid .form-message {
+	color: #f33a58;
+}
+
+.form-group.invalid .form-control {
+	border-color: #f33a58;
+}

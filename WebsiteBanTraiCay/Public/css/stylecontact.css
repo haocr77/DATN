@@ -1,0 +1,243 @@
+﻿.footer__item {
+	display: none
+}
+
+@media only screen and (max-width: 465px) {
+	* {
+		margin: 0px;
+		padding: 0px;
+		text-decoration: none;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+
+	.box_fixRight2 {
+		display: none;
+	}
+
+	.footer__item {
+		display: inline-flex;
+		height: 60px;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.7);
+		position: fixed;
+		bottom: -1px;
+		justify-content: space-between;
+		/*  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;*/
+		box-shadow: 0px -5px 10px #505250;
+		z-index: 9999;
+	}
+
+	.footer__contact {
+		height: 50px;
+		float: left;
+		width: 57%;
+		background-color: #005eff;
+		margin: 5px;
+		text-align: center;
+		border-radius: 5px;
+		z-index: 999;
+	}
+
+		.footer__contact a {
+			display: inline-flex;
+		}
+
+		.footer__contact p {
+			color: #fff;
+			margin-left: 10px;
+			line-height: 50px;
+		}
+
+		.footer__contact img {
+			height: 36px;
+			margin-top: 7px;
+		}
+
+	.footer__call {
+		height: 50px;
+		float: right;
+		width: 40%;
+		margin: 5px;
+		background-color: #02c716;
+		text-align: center;
+		border-radius: 5px;
+		z-index: 999;
+	}
+
+		.footer__call a {
+			display: inline-flex;
+		}
+
+		.footer__call p {
+			color: #fff;
+			line-height: 50px;
+			margin-left: 10px;
+		}
+
+		.footer__call i {
+			font-size: 33px;
+			line-height: 50px;
+		}
+}
+
+@media only screen and (max-width: 376px) {
+}
+
+.box_content2 div.wpcf7 input[type='text']:focus {
+	box-shadow: none
+}
+
+.box_content2 div.wpcf7 {
+	height: 110px;
+}
+
+.float-right-form input[type='email'],
+.float-right-form input[type='tel'],
+.float-right-form input[type='text'] {
+	margin: 0;
+	font-size: 13px;
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.float-right-form {
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	height: 124px;
+}
+
+	.float-right-form .cot3 input[type='submit'] {
+		font-size: 13px;
+		margin: 0;
+		padding: 0;
+		background: none;
+		border: none;
+		box-shadow: none;
+		text-transform: none;
+		font-weight: normal;
+	}
+
+	.float-right-form .cot3 {
+		height: 110px;
+		width: 15%;
+		float: right;
+		display: inline-block;
+		background: rgb(6, 146, 17);
+		text-align: center;
+		padding-top: 40px;
+		font-weight: 500;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: 44px;
+	}
+
+	.float-right-form .cot2 {
+		height: 110px;
+		width: 69%;
+		float: left;
+		display: inline-block;
+		padding: 4px;
+	}
+
+	.float-right-form .cot1 {
+		width: 15%;
+		height: 110px;
+		display: inline-block;
+		float: left;
+		background: rgb(6, 146, 17);
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		color: white;
+		font-size: 12px;
+		line-height: 16px;
+		text-align: center;
+		padding-top: 31px;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: 29px;
+	}
+
+.box_fixRight2 {
+	position: fixed;
+	top: 55%;
+	right: -220px;
+	max-width: 260px;
+	transition: all 0.4s ease-in-out 0s;
+	z-index: 999;
+}
+
+	.box_fixRight2 .box_content2 {
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		background: white;
+		/* padding: 20px; */
+		box-shadow: 0 0 30px rgba(37, 37, 37, 0.2);
+	}
+
+	.box_fixRight2:hover {
+		right: 0;
+		transition: all 0.4s ease-in-out 0s;
+	}
+
+.box_fixRight {
+	position: fixed;
+	top: 20%;
+	right: -100px;
+	width: auto;
+	transition: all 0.4s ease-in-out 0s;
+	z-index: 999;
+}
+
+	.box_fixRight .box_content {
+		background: #fff;
+		padding: 6px;
+		box-shadow: 0 0 30px rgba(37, 37, 37, 0.2);
+		border-radius: 15px 0 0 15px;
+	}
+
+		.box_fixRight .box_content .item {
+			font-size: 15px;
+			display: block;
+			padding: 10px 10px 10px 47px;
+			color: #111;
+		}
+
+			.box_fixRight .box_content .item:hover {
+				color: rgb(6, 146, 17)
+			}
+
+			.box_fixRight .box_content .item.item_1 {
+				background: url(https://daynghe24h.edu.vn/wp-content/uploads/2020/08/icon-zalo2.png) no-repeat left;
+				background-size: 38px;
+			}
+
+			.box_fixRight .box_content .item.item_2 {
+				background: url(https://daynghe24h.edu.vn/wp-content/uploads/2020/08/icon-phone2.png) no-repeat left;
+				background-size: 43px;
+			}
+
+			.box_fixRight .box_content .item.item_3 {
+				background: url(https://daynghe24h.edu.vn/wp-content/uploads/2020/08/facebook-messenger-2.png) no-repeat left;
+				background-size: 32px;
+			}
+
+	.box_fixRight:hover {
+		right: 0;
+		transition: all 0.4s ease-in-out 0s;
+	}
+
+
+@media only screen and (max-width: 767px) {
+	.box_fixRight {
+		display: none
+	}
+
+	,
+	.box_fixRight2 {
+		display: none
+	}
+}
